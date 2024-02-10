@@ -1,6 +1,3 @@
-background_images/
-base_images/
-datasets/
+data/
+generated_store/
 label_viewing/
-processed_background_images/
-test_gen/

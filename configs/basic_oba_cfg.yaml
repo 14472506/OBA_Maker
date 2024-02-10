@@ -1,0 +1,16 @@
+meta_data:
+  version: "1.0"
+  description: "Config file for generating basic OBA augmentations"
+
+augmentor_type: Basic
+
+roots:
+  base_imgs: "data/base_images"
+  gen_imgs: "generated_store"
+  background: "data/processed_background_images"
+  base_json: "train.json"
+  gen_json: "train.json"
+
+generator_params:
+  epochs: 3
+  out_type: "extend" # "new"
